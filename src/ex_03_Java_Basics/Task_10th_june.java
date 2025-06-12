@@ -1,3 +1,5 @@
+package ex_03_Java_Basics;
+
 public class Task_10th_june {
     public static void main(String[] args) {
         int a = 9;
