@@ -25,20 +25,15 @@ public class Lab101_Task16thJune {
         else if (a == b && b != c && c != a){
             System.out.println("exactly two sides are equal");
         }
+        else if (a != b && b != c && c == a) {
+            System.out.println("exactly two sides are equal");
+        }
+        else if (a != b && b == c && c != a){
+            System.out.println("exactly two sides are equal");
+        }
         else {
             System.out.println("no sides are equal");
         }
-
-        System.out.println("Enter the character");
-        char ch = scanner.next().toLowerCase().charAt(0);
-
-            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-                System.out.println("this char is an owel");
-            }
-            else {
-                System.out.println("It's not a vowel");
-            }
-
 
     }
 }
