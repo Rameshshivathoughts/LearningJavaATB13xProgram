@@ -8,8 +8,8 @@ public class Lab131_Do_While_Real_Case {
 
         do{
             System.out.println(number);
-            // callFunction(number);
-            // close the excel file, open the file.
+//            callFunction(number);
+//             close the excel file, open the file.
             number++;
         }while (number<0);
     }
