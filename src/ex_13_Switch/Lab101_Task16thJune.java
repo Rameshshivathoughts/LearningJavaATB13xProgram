@@ -1,5 +1,6 @@
 package ex_13_Switch;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Lab101_Task16thJune {
@@ -27,5 +28,17 @@ public class Lab101_Task16thJune {
         else {
             System.out.println("no sides are equal");
         }
+
+        System.out.println("Enter the character");
+        char ch = scanner.next().toLowerCase().charAt(0);
+
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                System.out.println("this char is an owel");
+            }
+            else {
+                System.out.println("It's not a vowel");
+            }
+
+
     }
 }
