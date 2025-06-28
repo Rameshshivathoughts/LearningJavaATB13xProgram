@@ -1,6 +1,5 @@
-package ex_18_Task_June17;
+package ex_18_Tasks;
 
-import javax.xml.transform.Source;
 import java.util.Scanner;
 
 public class Lab140_Task02 {
